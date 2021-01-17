@@ -139,19 +139,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AuthCLI.cpp" />
-    <ClCompile Include="CLI.cpp" />
-    <ClCompile Include="ICLI.cpp" />
+    <ClCompile Include="CLI\CLIReadCommand.cpp" />
+    <ClCompile Include="CLI\CLISendDirectMessageCommand.cpp" />
+    <ClCompile Include="CLI\CLISendPublicMessageCommand.cpp" />
+    <ClCompile Include="CLI\CLISigninCommand.cpp" />
+    <ClCompile Include="CLI\CLISignoutCommand.cpp" />
+    <ClCompile Include="CLI\CLISignupCommand.cpp" />
+    <ClCompile Include="CLI\CLIStatusCommand.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Store.cpp" />
-    <ClCompile Include="UsersStore.cpp" />
+    <ClCompile Include="Store\Message.cpp" />
+    <ClCompile Include="Store\MessageStore.cpp" />
+    <ClCompile Include="Store\Store.cpp" />
+    <ClCompile Include="Store\User.cpp" />
+    <ClCompile Include="Store\UserStore.cpp" />
+    <ClCompile Include="Utility\CLI\CLIManager.cpp" />
+    <ClCompile Include="Utility\CLI\ICLICommand.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AuthCLI.h" />
-    <ClInclude Include="CLI.h" />
-    <ClInclude Include="ICLI.h" />
-    <ClInclude Include="Store.h" />
-    <ClInclude Include="UsersStore.h" />
+    <ClInclude Include="CLI\CLIReadCommand.h" />
+    <ClInclude Include="CLI\CLISendDirectMessageCommand.h" />
+    <ClInclude Include="CLI\CLISendPublicMessageCommand.h" />
+    <ClInclude Include="CLI\CLISigninCommand.h" />
+    <ClInclude Include="CLI\CLISignoutCommand.h" />
+    <ClInclude Include="CLI\CLISignupCommand.h" />
+    <ClInclude Include="CLI\CLIStatusCommand.h" />
+    <ClInclude Include="Store\Message.h" />
+    <ClInclude Include="Store\MessageStore.h" />
+    <ClInclude Include="Store\Store.h" />
+    <ClInclude Include="Store\User.h" />
+    <ClInclude Include="Store\UserStore.h" />
+    <ClInclude Include="Utility\CLI\CLIManager.h" />
+    <ClInclude Include="Utility\CLI\ICLICommand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
