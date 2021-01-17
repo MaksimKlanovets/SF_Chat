@@ -1,2 +1,0 @@
-C:\Git\SF_Chat\chat\Debug\chat.exe
-C:\Git\SF_Chat\chat\Debug\chat.pdb
