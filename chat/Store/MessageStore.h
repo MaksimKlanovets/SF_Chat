@@ -8,7 +8,7 @@
 #include <map>
 #include "Message.h"
 #include "User.h"
-
+#include <vector>
 class MessageStore {
 private:
     std::map<std::string, std::vector<Message*>> channels;
